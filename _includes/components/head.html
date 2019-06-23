@@ -1,10 +1,24 @@
 <head>
   <meta charset="utf-8">
+  <!-- Primary Meta Tags -->
   <title>{{ page.title }}</title>
-  <meta content="{{ page.description }}" name="description">
-  <meta content="{{ page.title }}" property="og:title">
-  <meta content="{{ page.description }}" property="og:description">
-  <meta content="summary" name="twitter:card">
+  <meta name="title" content="{{ page.title }}">
+  <meta name="description" content="{{ page.description }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://annafilou.com/">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="/images/OG-AN.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://annafilou.com/">
+  <meta property="twitter:title" content="{{ page.title }}">
+  <meta property="twitter:description" content="{{ page.description }}">
+  <meta property="twitter:image" content="/images/OG-AN.jpg">
+
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="/css/normalize.css" rel="stylesheet" type="text/css">
   <link href="/css/webflow.css" rel="stylesheet" type="text/css">
