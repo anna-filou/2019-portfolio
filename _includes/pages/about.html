@@ -5,7 +5,8 @@
       {% endcapture %}
       {{ about | markdownify }}
 
-      <h2>TEST Skills</h2>
+      <!-- SKILLS -->
+      <h2>Skills &amp; Tools</h2>
       <div class="skills-wrapper">
         {% for skill in site.skills %}
         <div class="skill-block">
@@ -14,30 +15,17 @@
         {% endfor %}
       </div>
 
-      <h2>Skills &amp; Tools</h2>
-      <div class="skills-wrapper">
-        <div class="skill-block">
-          <div>💻 Webflow</div>
+      <!-- TEST -->
+      <h2> TEST Languages 👄</h2>
+        <div class="skills-wrapper">
+          {% for language in site.languages %}
+          <div class="skill-block">
+          <div> {{ language.name }}</div>
+          <div class="badge">{{ language.level }}</div>
         </div>
-        <div class="skill-block">
-          <div>🔷 Netlify CMS</div>
         </div>
-        <div class="skill-block">
-          <div>📊 Airtable Databases</div>
-        </div>
-        <div class="skill-block">
-          <div>🔬 Jekyll &amp; Liquid</div>
-        </div>
-        <div class="skill-block">
-          <div>🎨 Watercolor Illustration</div>
-        </div>
-        <div class="skill-block">
-          <div>✏️ Digital Illustration</div>
-        </div>
-        <div class="skill-block">
-          <div>⭐ Logo Design</div>
-        </div>
-      </div>
+
+      <!-- LANGUAGES -->
       <h2>Languages 👄</h2>
       <div class="skills-wrapper">
         <div class="skill-block">

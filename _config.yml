@@ -34,8 +34,25 @@ jam-gr: Διαβάστε σχετικά με το JAMstack
 # About
 # Skills
 skills:
-  - TEST Webflow
-  - TEST Something
+  - 💻 Webflow
+  - 🔷 Netlify CMS
+  - 📊 Airtable Databases
+  - 🔬 Jekyll & Liquid
+  - 🎨 Watercolor Illustration
+  - 🖋️ Digital Illustration
+  - ⭐ Logo Design
+
+# Languages 👄
+languages:
+  - name: 🇺🇸 English
+    level: Fluent
+    color: 
+  - name: 🇩🇪 German
+    level: Proficient
+    color: 
+  - name: 🇬🇷 Greek
+    level: Native
+    color: 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
