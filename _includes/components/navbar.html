@@ -5,7 +5,15 @@
         <div id="w-node-51a7aa7c3758-aa7c3753" class="nav-buttons-wrapper">
           <a href="/{{ page.lang }}/work/websites.html" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3759" class="global-nav-button w-inline-block">
             <div class="fa-icon fa-left"></div>
-            <div class="nav-text">Sites</div>
+            <div class="nav-text">
+            {% if page.lang == 'en' %}
+            Sites
+            {% elsif if page.lang == 'de' %}
+            Seiten
+            {% elsif if page.lang == 'gr' %}
+            Site
+            {% endif %}
+            </div>
             <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375c" class="left-line"></div>
             <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375d" class="right-line"></div>
             <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375e" class="bottom-line"></div>
@@ -13,21 +21,45 @@
           </a>
           <a href="/{{ page.lang }}/work/graphics.html" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3760" class="global-nav-button w-inline-block">
             <div class="fa-icon fa-left"></div>
-            <div class="nav-text">ART</div>
+            <div class="nav-text">
+            {% if page.lang == 'en' %}
+            Art
+            {% elsif if page.lang == 'de' %}
+            Kunst
+            {% elsif if page.lang == 'gr' %}
+            Ζωγραφιες
+            {% endif %}
+            </div>
             <div class="left-line"></div>
             <div class="right-line"></div>
             <div class="bottom-line"></div>
             <div class="top-line"></div>
           </a>
           <a href="/{{ page.lang }}/about.html" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3767" class="global-nav-button w-inline-block">
-            <div class="nav-text">about</div>
+            <div class="nav-text">
+            {% if page.lang == 'en' %}
+            About
+            {% elsif if page.lang == 'de' %}
+            Über mich
+            {% elsif if page.lang == 'gr' %}
+            Σχετικα
+            {% endif %}
+            </div>
             <div class="left-line"></div>
             <div class="right-line"></div>
             <div class="bottom-line"></div>
             <div class="top-line"></div>
           </a>
           <a href="/{{ page.lang }}/#contact" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c376e" class="global-nav-button w-inline-block">
-            <div class="nav-text">Contact</div>
+            <div class="nav-text">
+            {% if page.lang == 'en' %}
+            Contact
+            {% elsif if page.lang == 'de' %}
+            Kontakt
+            {% elsif if page.lang == 'gr' %}
+            Επικοινωνία
+            {% endif %}
+            </div>
             <div class="left-line"></div>
             <div class="right-line"></div>
             <div class="bottom-line"></div>
