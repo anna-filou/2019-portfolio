@@ -8,16 +8,15 @@ lang: en
 # Now Page
 
 In this page you can find out what is going on in my life at the moment.
-Inspired by the [Now Now Now Project](https://nownownow.com/about)
+Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
-## 🌍 Location
-🇦🇹 Vienna, Austria
+## 🌍 Current Location
+Vienna, Austria 🇦🇹
 
 ---
 
 ## 🎯 Focusing on (current obsessions)
-- Jekyll (static site generator)
-- Airtable databases, back-office automation (honestly much more exciting than it sounds)
+- Jekyll (the static site generator powering this website)
 
 ---
 
@@ -30,3 +29,11 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about)
 
 ## 📚 Reading
 - Lots of articles on Instapaper (let's me speed read and has built-in Wiktionary support, so I prefer it over Pocket)
+
+## Doing
+Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Sometimes I forgot to log tasks for weeks or months even though 😅 Trying to fix that.
+
+<iframe title="Makerlog Embed" height="300" style="width:100%" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1293/embed"></iframe>
+
+That's it for now! I try to keep this updated as much as I can.
+Latest Update: {{ page.time | date: '%d %b, %Y' }}
