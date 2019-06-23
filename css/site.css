@@ -78,14 +78,14 @@ p {
 }
 
 a {
+  border-bottom: 2px none rgba(0, 166, 207, 0.48);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
-  color: #1a1a1a;
-  font-size: 15px;
-  line-height: 1.6em;
+  color: #1f3070;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -182,6 +182,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 44px;
+  margin-bottom: 10px;
   padding: 0px 15px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -977,10 +978,12 @@ figcaption {
 }
 
 .icon-link {
+  border-bottom-style: none;
   -webkit-transition: -webkit-transform 300ms ease;
   transition: -webkit-transform 300ms ease;
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
+  text-decoration: none;
 }
 
 .icon-link:hover {
@@ -1069,7 +1072,7 @@ figcaption {
 
 .product-name-title {
   margin-top: 6px;
-  padding-right: 20px;
+  color: #333;
   font-size: 2em;
   font-weight: 600;
 }
@@ -1263,6 +1266,7 @@ figcaption {
   margin-right: 20px;
   padding-left: 0px;
   color: #272727;
+  text-transform: uppercase;
 }
 
 .footer-link:hover {
@@ -1298,6 +1302,7 @@ figcaption {
 
 .footer-text {
   margin-top: 3px;
+  border-bottom-style: none;
   color: #555;
   font-size: 14px;
   font-weight: 300;
@@ -1648,6 +1653,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border-bottom-style: none;
   -webkit-transition: color 250ms ease-in-out;
   transition: color 250ms ease-in-out;
   color: #292929;
@@ -1750,6 +1756,10 @@ figcaption {
 .global-nav-button.flag-nav {
   margin-left: auto;
   padding: 5px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .grid {
@@ -2248,8 +2258,7 @@ figcaption {
   .hero-section {
     max-height: none;
     margin-top: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 40px 20px 60px;
   }
   .div-block-flex {
     -webkit-flex-wrap: nowrap;
@@ -2565,8 +2574,7 @@ figcaption {
     max-height: 100%;
     margin-top: 0px;
     margin-bottom: 60px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 30px;
   }
   .product-card {
     max-width: 90%;
@@ -2914,6 +2922,9 @@ figcaption {
     margin-right: 6px;
     margin-left: 6px;
   }
+  .hero-section {
+    padding-top: 0px;
+  }
   .product-card-description {
     padding-right: 0px;
     padding-left: 0px;
@@ -2994,7 +3005,6 @@ figcaption {
   .footer-link {
     margin-bottom: 5px;
     font-size: 14px;
-    text-transform: uppercase;
     -webkit-column-span: none;
     column-span: none;
   }
