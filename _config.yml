@@ -24,12 +24,12 @@ navlinks:
     de: Sit
     gr: Sites
     link: /{{ page.lang }}/work/websites
-    icon: &#xe903;
+    icon: 
   - en: Art
     de: Kunst
     gr: Art
     link: /{{ page.lang }}/work/graphics
-    icon: &#xe90c;
+    icon: 
   - en: About 
     de: Info
     gr: Info
