@@ -7,16 +7,40 @@
     <div class="w-container">
       <div class="grid-h">
         <div class="cell grid--cell-70-60-100-100">
-          <h2>I&#x27;m a fan of lightweight websites that don&#x27;t make use of heavy databases.</h2>
+          <h2>
+            {% if page.lang == 'en' %}
+            {{ site.web-heading-en }}
+            {% elsif page.lang == 'de' %}
+            {{ site.web-heading-de }}
+            {% elsif page.lang == 'gr' %}
+            {{ site.web-heading-gr }}
+            {% endif %}
+          </h2>
         </div>
         <div class="cell grid-cell--30-40-100-100 vertical">
-          <p class="body-text--18 margin-16px">Instead, I build static sites that are much faster and more flexible, then make them work with a static CMS for content creation and on-the-go editing.</p>
+          <p class="body-text--18 margin-16px">
+            {% if page.lang == 'en' %}
+            {{ site.web-subtitle-en }}
+            {% elsif page.lang == 'de' %}
+            {{ site.web-subtitle-de }}
+            {% elsif page.lang == 'gr' %}
+            {{ site.web-subtitle-gr }}
+            {% endif %}
+        </p>
         </div>
       </div>
       <a href="https://jamstack.org/" target="_blank" class="link-block w-inline-block">
         <div class="button">
           <div class="fa-icon fa-left"></div>
-          <div class="button-text">Read more about the JAMstack</div>
+          <div class="button-text">
+          {% if page.lang == 'en' %}
+          {{ site.jam-en }}
+          {% elsif page.lang == 'de' %}
+          {{ site.jam-de }}
+          {% elsif page.lang == 'gr' %}
+          {{ site.jam-gr }}
+          {% endif %}
+          </div>
         </div>
       </a>
     </div>
@@ -24,10 +48,12 @@
   <div class="section">
     <div class="w-container">
       <div class="text-block w-richtext">
-        <h3>Traditional websites are a lot of work to maintain.</h3>
-        <p>You need to pay for a server every month, forever to host a site built on Wordpress or other Content Management Systems (CMS). That server needs to work all the time, build the website from the ground up every time there&#x27;s a new visitor. Unless you&#x27;re building something very complex, like a social network, that&#x27;s not at all necessary.</p>
-        <p>Static sites on the other hand don&#x27;t require a CMS. No server to pay for, no updates to install, no viruses to worry about. But how to you update the content?</p>
-        <p>That&#x27;s where static site <em>generators</em> come in. They update the website only once when you add new content; not many times, one for each visitor. That makes the website faster, cheaper to maintain (as in totally <strong>free</strong>) and it will always work, no matter where you put it.</p>
+        
+        {% capture websites %}
+          {% include text/websites.md %}
+        {% endcapture %}
+        {{ websites | markdownify }}
+
       </div>
     </div>
   </div>
