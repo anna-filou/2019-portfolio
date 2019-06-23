@@ -43,16 +43,17 @@ skills:
   - ⭐ Logo Design
 
 # Languages 👄
+# colors: dark blue (default, don't write, blue, green)
 languages:
   - name: 🇺🇸 English
     level: Fluent
     color: 
   - name: 🇩🇪 German
     level: Proficient
-    color: 
+    color: light-blue
   - name: 🇬🇷 Greek
     level: Native
-    color: 
+    color: green
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

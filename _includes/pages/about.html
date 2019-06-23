@@ -15,33 +15,18 @@
         {% endfor %}
       </div>
 
-      <!-- TEST -->
-      <h2> TEST Languages 👄</h2>
+      <!-- LANGUAGES -->
+      <h2> Languages 👄</h2>
         <div class="skills-wrapper">
           {% for language in site.languages %}
           <div class="skill-block">
             <div> {{ language.name }}</div>
-            <div class="badge">{{ language.level }}</div>
+            <div class="badge {{ language.color }}">{{ language.level }}</div>
           </div>
           {% endfor %}
         </div>
 
-      <!-- LANGUAGES -->
-      <h2>Languages 👄</h2>
-      <div class="skills-wrapper">
-        <div class="skill-block">
-          <div>🇺🇸 English</div>
-          <div class="badge">Fluent</div>
-        </div>
-        <div class="skill-block">
-          <div>🇩🇪 German</div>
-          <div class="badge light-blue">Proficient</div>
-        </div>
-        <div class="skill-block">
-          <div>🇬🇷 Greek</div>
-          <div class="badge green">Native</div>
-        </div>
-      </div>
+
       <h2>Links</h2>
       <div class="skills-wrapper vertical">
         <a href="/now" class="w-inline-block">
