@@ -1,4 +1,5 @@
-### Traditional websites are a lot of work to maintain.</h3>
+
+### Traditional websites are a lot of work to maintain.
 You need to pay for a server every month, forever to host a site built on Wordpress or other Content Management Systems (CMS). That server needs to work all the time, build the website from the ground up every time there's a new visitor. Unless you're building something very complex, like a social network, that's not at all necessary.
 
 Static sites on the other hand don't require a CMS. No server to pay for, no updates to install, no viruses to worry about. But how to you update the content?
