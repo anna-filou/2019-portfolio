@@ -1,11 +1,9 @@
   <div class="section">
     <div class="w-container">
-      <h1>About</h1>
-      <div class="text-block w-richtext">
-        <h3>My name is Anna and I&#x27;m a tech geek passionate about building stuff online and bringing concepts to life through illustration.</h3>
-        <p>I come up with faster and easier ways of doing repetitive things, because I hate wasting time on mindless tasks.</p>
-        <p>I&#x27;ve been drawing since kindergarten, constantly striving to improve. </p>
-        <p>The web has always been a huge part of my life and I&#x27;m doing my best to make it a better place.</p>
+      {% capture about %}
+        {% include text/about.md %}
+      {% endcapture %}
+      {{ about | markdownify }}
       </div>
       <h2>Skills &amp; Tools</h2>
       <div class="skills-wrapper">
