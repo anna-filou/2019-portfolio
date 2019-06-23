@@ -6,12 +6,28 @@
   <div class="section">
     <div class="w-container">
       <div class="text-block w-richtext">
-        <h3>Illustrations have the power to convey meaning with a speed and intensity that text cannot match</h3>
+        <h3>
+          {% if page.lang == 'en' %}
+          {{ site.ill-heading-en }}
+          {% elsif page.lang == 'de' %}
+          {{ site.ill-heading-de }}
+          {% elsif page.lang == 'gr' %}
+          {{ site.ill-heading-gr }}
+          {% endif %}
+        </h3>
       </div>
       <a href="https://www.instagram.com/brechdaslicht/" target="_blank" class="w-inline-block">
         <div class="button button-insta">
           <div class="fa-icon fa-left"></div>
-          <div class="button-text">Follow me on Instagram</div>
+          <div class="button-text">
+          {% if page.lang == 'en' %}
+          Follow me on Instagram
+          {% elsif page.lang == 'de' %}
+          Mir auf Instagram folgen
+          {% elsif page.lang == 'gr' %}
+          Ακολουθήστε με στο Instagram
+          {% endif %}
+          </div>
         </div>
       </a>
     </div>
