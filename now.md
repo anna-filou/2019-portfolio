@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Now - Anna Filou | Web Designer, Illustrator
 description: This is up what I'm currently up to
 lang: en
@@ -7,6 +7,7 @@ lang: en
 
 # Now Page
 
+In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about)
 
 ## 🌍 Location
@@ -16,8 +17,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about)
 
 ## 🎯 Focusing on (current obsessions)
 - Jekyll (static site generator)
-- Airtable databases, back-office automation
-	It's honestly much more exciting than it sounds
+- Airtable databases, back-office automation (honestly much more exciting than it sounds)
 
 ---
 
@@ -29,4 +29,4 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about)
 ---
 
 ## 📚 Reading
-- Lots of articles on Instapaper (let's me speed read, which is a plus over Pocket)
+- Lots of articles on Instapaper (let's me speed read and has built-in Wiktionary support, so I prefer it over Pocket)
