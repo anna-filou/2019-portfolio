@@ -5,6 +5,16 @@
       {% endcapture %}
       {{ about | markdownify }}
       </div>
+
+      <h2>TEST Skills</h2>
+      <div class="skills-wrapper">
+        {% for skill in site.skills %}
+        <div class="skill-block">
+          <div>{{ site.skills }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
       <h2>Skills &amp; Tools</h2>
       <div class="skills-wrapper">
         <div class="skill-block">

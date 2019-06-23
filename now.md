@@ -33,7 +33,7 @@ Vienna, Austria 🇦🇹
 ---
 
 ## ✅ Doing
-Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Sometimes I forgot to log tasks for weeks or even months though 😅 Trying to fix that.
+Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Sometimes I forget to log tasks for weeks or even months though 😅 Trying to fix that.
 
 <iframe title="Makerlog Embed" height="300" style="width:100%" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1293/embed"></iframe>
 

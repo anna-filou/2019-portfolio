@@ -31,6 +31,12 @@ jam-en: Read more about the JAMstack
 jam-de: Lesen Sie mehr über den JAMstack
 jam-gr: Διαβάστε σχετικά με το JAMstack
 
+# About
+# Skills
+skills:
+  - TEST Webflow
+  - TEST Something
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
