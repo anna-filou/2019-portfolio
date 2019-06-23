@@ -103,17 +103,20 @@
               Με λένε Άννα, κάνω εικονογραφίσεις και ιστοσελίδες, μένω και δουλεύω στην Ευρώπη.
               {% endif %}
             </div>
-            <div class="button">
-              <div class="fa-icon fa-left"></div>
-              <div class="button-text">
-              {% if page.lang == 'en' %}
-              Read more
-              {% elsif page.lang == 'de' %}
-              Mehr lesen
-              {% elsif page.lang == 'gr' %}
-              Διαβάστε περισσότερα
-              {% endif %}
+            <a href="{{ page.lang }}/about" class="link-block w-inline-block">
+              <div class="button">
+                <div class="fa-icon fa-left"></div>
+                <div class="button-text">
+                {% if page.lang == 'en' %}
+                Read more
+                {% elsif page.lang == 'de' %}
+                Mehr lesen
+                {% elsif page.lang == 'gr' %}
+                Διαβάστε περισσότερα
+                {% endif %}
+                </div>
               </div>
+            </a>
             </div>
           </div>
         </div>
