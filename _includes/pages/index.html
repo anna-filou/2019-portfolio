@@ -93,10 +93,12 @@
     </div>
   </div>
 
-<!-- ABOUT SECTION -->
+  <!-- ABOUT SECTION -->
   <div id="about" class="section">
     <div class="w-container">
       <div class="div-block-flex center-vertical">
+
+        <!-- MINI BIO START -->
         <div class="div-container-mini"><img src="/images/Anna-Avatar.jpg" alt="" class="avatar-img">
           <div class="bio-col-2">
             <div class="mini-bio-text">
@@ -108,23 +110,23 @@
               Με λένε Άννα, κάνω εικονογραφίσεις και ιστοσελίδες, μένω και δουλεύω στην Ευρώπη.
               {% endif %}
             </div>
-            <a href="/{{ page.lang }}/about" class="link-block w-inline-block">
-              <div class="button">
-                <div class="fa-icon fa-left"></div>
-                <div class="button-text">
-                {% if page.lang == 'en' %}
+            <div class="button">
+              <div class="fa-icon fa-left"></div>
+              <div class="button-text">
+               {% if page.lang == 'en' %}
                 Read more
                 {% elsif page.lang == 'de' %}
                 Mehr lesen
                 {% elsif page.lang == 'gr' %}
                 Διαβάστε περισσότερα
                 {% endif %}
-                </div>
               </div>
-            </a>
             </div>
           </div>
         </div>
+        <!-- MINI BIO END -->
+
+        <!-- COLORED BUTTONS START -->
         <div class="div-button-container">
           <a href="/now" class="w-inline-block">
             <div class="button button-outline outline-blue">
@@ -137,9 +139,11 @@
               {% elsif page.lang == 'gr' %}
               Τι κάνω αυτήν την περίοδο (🇺🇸)
               {% endif %}
+
               </div>
             </div>
           </a>
+
           <a href="https://medium.com/@anna.filou" target="_blank" class="w-inline-block">
             <div class="button button-outline outline-peach">
               <div class="fa-icon fa-left"></div>
@@ -151,15 +155,17 @@
               {% elsif page.lang == 'gr' %}
               Άρθρα (στο Medium)
               {% endif %}
-            </div>
+
+              </div>
             </div>
           </a>
         </div>
+        <!-- COLORED BUTTONS END -->
       </div>
     </div>
   </div>
 
-  <!-- ABOUT SECTION -->
+<!-- ABOUT SECTION END -->
   <div id="contact" class="section">
     <div class="center w-container"><img src="/images/watercolor-stain-1.png" srcset="/images/watercolor-stain-1-p-500.png 500w, /images/watercolor-stain-1.png 1136w" sizes="(max-width: 767px) 100vw, 700px" alt="" class="stain-2"><img src="/images/chat-bubbles.png" srcset="/images/chat-bubbles-p-500.png 500w, /images/chat-bubbles.png 827w" sizes="(max-width: 479px) 120px, 150px" alt="" class="chat-bubble">
       {% if page.lang == 'en' %}
