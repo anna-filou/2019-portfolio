@@ -30,10 +30,11 @@ Vienna, Austria 🇦🇹
 ## 📚 Reading
 - Lots of articles on Instapaper (let's me speed read and has built-in Wiktionary support, so I prefer it over Pocket)
 
-## Doing
+## ✅ Doing
 Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Sometimes I forgot to log tasks for weeks or months even though 😅 Trying to fix that.
 
 <iframe title="Makerlog Embed" height="300" style="width:100%" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1293/embed"></iframe>
 
 That's it for now! I try to keep this updated as much as I can.
-Latest Update: {{ page.time | date: '%d %b, %Y' }}
+
+Latest Update: June 23, 2019
