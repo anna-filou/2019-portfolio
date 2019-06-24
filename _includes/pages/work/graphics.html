@@ -61,7 +61,7 @@
       <div class="photo-wrapper">
         <!-- FANCYBOX START -->
         {% for item in site.data.color %}
-        <a href="/images/{{ item.full }}" data-fancybox="monochrome" data-caption="{{ item.caption }}">
+        <a href="/images/{{ item.full }}" data-fancybox="color" data-caption="{{ item.caption }}">
           <img src="/images/{{ item.thumb }}" class="portfolio-img" alt="{{ item.alt }}" />
         </a>
         {% endfor %}
