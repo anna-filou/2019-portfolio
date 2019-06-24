@@ -57,7 +57,7 @@ jam-gr: Διαβάστε σχετικά με το JAMstack
 # Illustrations Page Text in all langs
 ill-heading-en: Illustrations have the power to convey meaning with a speed and intensity that text cannot match
 ill-heading-de: Illustrationen haben die Fähigkeit, Bedeutung mit einer Geschwindigkeit und Intensität zu vermitteln, die der Text nicht erreichen kann
-ill-heading-gr: εικόνες έχουν την δύναμη να μεταδίδουν νοήματα με ταχύτητα και ένταση που δεν μπορεί να φτάσει το κείμενο
+ill-heading-gr: Οι εικόνες έχουν την δύναμη να μεταδίδουν νοήματα με ταχύτητα και ένταση που δεν μπορεί να φτάσει το κείμενο
 
 # About
 # Skills
@@ -71,14 +71,14 @@ skills:
   - ⭐ Logo Design
 
 # Languages 👄
-# colors: dark blue (default, don't write, blue, green)
+# colors: dark blue (default, don't write), light-blue, green
 languages:
   - name: 🇺🇸 English
     level: Fluent
-    color: 
+    color: light-blue
   - name: 🇩🇪 German
     level: Proficient
-    color: light-blue
+    color:
   - name: 🇬🇷 Greek
     level: Native
     color: green
