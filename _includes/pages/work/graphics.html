@@ -43,8 +43,8 @@
 
       <!-- FANCYBOX AUTO START -->
       {% for item in site.data.monochrome %}
-      <a href="/images/{{ art.full }}" data-fancybox="monochrome" data-caption="{{ art.caption }}">
-        <img src="/images/{{ art.thumb }}" class="portfolio-img" alt="{{ art.alt }}" />
+      <a href="/images/{{ item.full }}" data-fancybox="monochrome" data-caption="{{ item.caption }}">
+        <img src="/images/{{ item.thumb }}" class="portfolio-img" alt="{{ item.alt }}" />
       </a>
       {% endfor %}
       <!-- FANCYBOX AUTO END -->
