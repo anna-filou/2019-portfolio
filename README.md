@@ -5,8 +5,8 @@ Here is where I test and "debug" my new portfolio before I copy everything to my
 
 [Temporary Netlify Link](https://new-portfolio-test.netlify.com/)
 
-Built with: Jekyll
-Design/Frontend: Webflow
+- Built with: Jekyll
+- Design/Frontend: Webflow
 
 ### To-do:
 - [ ] fix flag images
