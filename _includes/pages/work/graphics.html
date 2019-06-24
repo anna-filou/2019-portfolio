@@ -41,85 +41,33 @@
       
       <div class="photo-wrapper">
 
-      <!-- FANCYBOX AUTO START -->
+      <!-- FANCYBOX START -->
       {% for item in site.data.monochrome %}
       <a href="/images/{{ item.full }}" data-fancybox="monochrome" data-caption="{{ item.caption }}">
         <img src="/images/{{ item.thumb }}" class="portfolio-img" alt="{{ item.alt }}" />
       </a>
       {% endfor %}
-      <!-- FANCYBOX AUTO END -->
+      <!-- FANCYBOX END -->
 
       </div>
     </div>
   </div>
 
 <!-- 1st Secion END -->
-
-
+      
   <div class="section">
     <div class="w-container">
       <h2>Colored Digital</h2>
-      <div class="photo-wrapper"><a href="#" class="w-inline-block w-lightbox"><img src="/images/color---forced-kiss-copy.jpg" srcset="/images/color---forced-kiss-copy-p-1080.jpeg 1080w, /images/color---forced-kiss-copy-p-1600.jpeg 1600w, /images/color---forced-kiss-copy.jpg 1670w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 435px, 394px" alt="" class="portfolio-img"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1670,
-      "caption": "",
-      "height": 1272,
-      "fileName": "5c464bdfd9d64a17282ac923_color - forced kiss copy.jpg",
-      "origFileName": "color - forced kiss copy.jpg",
-      "url": "/images/color---forced-kiss-copy.jpg",
-      "_id": "5c464bdfd9d64a17282ac923",
-      "type": "image",
-      "fileSize": 125193
-    }
-  ],
-  "group": "illustration"
-}</script></a><a href="#" class="w-inline-block w-lightbox"><img src="/images/color---polarized.jpg" srcset="/images/color---polarized-p-500.jpeg 500w, /images/color---polarized-p-1080.jpeg 1080w, /images/color---polarized-p-1600.jpeg 1600w, /images/color---polarized-p-2000.jpeg 2000w, /images/color---polarized.jpg 2043w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 442px, 400px" alt="" class="portfolio-img"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 2043,
-      "caption": "",
-      "height": 1532,
-      "fileName": "5c465194666da867faeb01d8_color - polarized.jpg",
-      "origFileName": "color - polarized.jpg",
-      "url": "/images/color---polarized.jpg",
-      "_id": "5c465194666da867faeb01d8",
-      "type": "image",
-      "fileSize": 290587
-    }
-  ],
-  "group": "illustration"
-}</script></a><a href="#" class="w-inline-block w-lightbox"><img src="/images/color---red-girl-copy.jpg" srcset="/images/color---red-girl-copy-p-1080.jpeg 1080w, /images/color---red-girl-copy.jpg 1588w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 442px, 400px" alt="" class="portfolio-img"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1588,
-      "caption": "",
-      "height": 1191,
-      "fileName": "5c464bfad9d64a3e632ac93c_color - red girl copy.jpg",
-      "origFileName": "color - red girl copy.jpg",
-      "url": "/images/color---red-girl-copy.jpg",
-      "_id": "5c464bfad9d64a3e632ac93c",
-      "type": "image",
-      "fileSize": 165816
-    }
-  ],
-  "group": "illustration"
-}</script></a><a href="#" class="w-inline-block w-lightbox"><img src="/images/color---kiss.jpg" srcset="/images/color---kiss-p-500.jpeg 500w, /images/color---kiss-p-1080.jpeg 1080w, /images/color---kiss-p-1600.jpeg 1600w, /images/color---kiss.jpg 1961w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 442px, 400px" alt="" class="portfolio-img"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1961,
-      "caption": "",
-      "height": 1470,
-      "fileName": "5c465194d9d64ac7782b0863_color - kiss.jpg",
-      "origFileName": "color - kiss.jpg",
-      "url": "/images/color---kiss.jpg",
-      "_id": "5c465194d9d64ac7782b0863",
-      "type": "image",
-      "fileSize": 181039
-    }
-  ],
-  "group": "illustration"
-}</script></a></div>
+      <div class="photo-wrapper">
+        <!-- FANCYBOX START -->
+        {% for item in site.data.color %}
+        <a href="/images/{{ item.full }}" data-fancybox="monochrome" data-caption="{{ item.caption }}">
+          <img src="/images/{{ item.thumb }}" class="portfolio-img" alt="{{ item.alt }}" />
+        </a>
+        {% endfor %}
+      <!-- FANCYBOX END -->
+
+     </div>
     </div>
   </div>
 
