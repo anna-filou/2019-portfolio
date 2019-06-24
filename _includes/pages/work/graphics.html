@@ -45,8 +45,14 @@
         <img src="/images/header-girl-p-500.jpeg" class="portfolio-img" alt="digital sketch of girl looking up" />
       </a>
       <!-- FANCYBOX END -->
-
       
+      <!-- FANCYBOX AUTO START -->
+      {% for art in site.data.arts %}
+      <a href="{{ art.full }}" data-fancybox="monochrome" data-caption="{{ art.caption }}">
+        <img src="{{ art.thumb }}" class="portfolio-img" alt="{{ art.alt }}" />
+      </a>
+      <!-- FANCYBOX AUTO END -->
+
         <!-- WF LIGHTBOX START -->
         <a href="#" class="w-inline-block w-lightbox"><img src="/images/header-girl.jpg" srcset="/images/header-girl-p-500.jpeg 500w, /images/header-girl-p-800.jpeg 800w, /images/header-girl.jpg 1698w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 221px, 200px" alt="" class="portfolio-img"><script type="application/json" class="w-json">{
   "items": [
