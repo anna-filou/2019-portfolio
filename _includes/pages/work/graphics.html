@@ -45,13 +45,17 @@
         <img src="/images/header-girl-p-500.jpeg" class="portfolio-img" alt="digital sketch of girl looking up" />
       </a>
       <!-- FANCYBOX END -->
-      
+      <!-- FANCYBOX START -->
+      <a href="{{ art.full }}" data-fancybox="monochrome" data-caption="Looking up">
+        <img src="/images/header-girl-p-500.jpeg" class="portfolio-img" alt="digital sketch of girl looking up" />
+      </a>
+      <!-- FANCYBOX END -->
       <!-- FANCYBOX AUTO START -->
       {% for art in site.data.arts %}
       <a href="{{ art.full }}" data-fancybox="monochrome" data-caption="{{ art.caption }}">
         <img src="{{ art.thumb }}" class="portfolio-img" alt="{{ art.alt }}" />
       </a>
-      {% endfor }
+      {% endfor %}
       <!-- FANCYBOX AUTO END -->
 
         <!-- WF LIGHTBOX START -->
