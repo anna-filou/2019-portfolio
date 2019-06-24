@@ -1,4 +1,41 @@
-- full: /images/header-girl.jpg
-  thumb: /images/header-girl-p-500.jpeg
-  caption: TEST Looking up
+# /images/ is already included
+
+- full: header-girl.jpg
+  thumb: header-girl-p-500.jpeg
+  caption: Looking up
   alt: digital sketch of girl looking up
+
+- full: bnw---covered-mouth-boy.PNG
+  thumb: bnw---covered-mouth-boy-p-500.png
+  caption: Thoughts
+  alt: boy holding his hand to his mouth, staring at something
+
+- full: bnw---give-up.png
+  thumb: bnw---give-up-p-500.png
+  caption: I'd give up my eyes, to see you one last time / I'd give up my fingertips to touch you / and I could paint you picture perfect even if I were blinded (Picture Perfect by Escape the Fate)
+  alt:
+
+- full: 
+  thumb:
+  caption:
+  alt:
+
+- full: 
+  thumb:
+  caption:
+  alt:
+
+- full: 
+  thumb:
+  caption:
+  alt:
+
+- full: 
+  thumb:
+  caption:
+  alt:
+
+- full: 
+  thumb:
+  caption:
+  alt:
