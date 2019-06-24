@@ -42,7 +42,7 @@
       <div class="photo-wrapper">
 
       <!-- FANCYBOX AUTO START -->
-      {% for art in site.data.arts %}
+      {% for item in site.data.monochrome %}
       <a href="/images/{{ art.full }}" data-fancybox="monochrome" data-caption="{{ art.caption }}">
         <img src="/images/{{ art.thumb }}" class="portfolio-img" alt="{{ art.alt }}" />
       </a>
