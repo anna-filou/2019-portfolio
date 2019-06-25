@@ -2161,6 +2161,10 @@ figcaption {
   height: 30px;
 }
 
+._80-50px {
+  height: 80px;
+}
+
 @media (max-width: 991px) {
   h1 {
     font-size: 2.5em;
@@ -2418,6 +2422,9 @@ figcaption {
   }
   ._30-20px {
     height: 20px;
+  }
+  ._80-50px {
+  height: 50px;
   }
 }
 
