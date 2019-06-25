@@ -1,10 +1,10 @@
 # /images/ is already included
 
-- full: website-bistrot46.jpg
+- title: Bistrot 46 | Café Restaurant
+  full: website-bistrot46.jpg
   thumb: website-bistrot46.jpg
-  caption: 
-  alt:
-  title: Bistrot 46 | Café Restaurant
+  caption: Homepage & some photos of the yummmy food which I took
+  alt: mockups of a restaurant website with pictures of the food floating alongside screenshots of the site
   description: The owners wanted to promote their bistrot;s fun, live music nights as well as their homemade food, to both locals and tourists.<br>First we had a meeting to discuss the direction of the project, then photographed the all dishes, built the website and finally the menu.
   1-title: What
   1-text: Website Design & Development, Food Photography, Airtable Database (menu)
