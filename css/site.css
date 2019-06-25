@@ -2141,6 +2141,7 @@ figcaption {
 .product-big {
   display: inline-block;
   width: 100%;
+  padding-top: 50px;
   border-radius: 8px;
   box-shadow: 4px 4px 10px 0 rgba(87, 87, 87, 0.38);
   -webkit-transition: all 350ms ease;
