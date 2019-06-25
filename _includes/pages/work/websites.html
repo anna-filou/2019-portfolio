@@ -63,33 +63,34 @@
     </div>
   </div>
 
-<!-- WORK EXAMPLE START -->
+
   <div class="section">
     <div class="w-container">
+      <!-- WORK EXAMPLE START -->
       <div>
         <div class="center">
         <!-- FANCYBOX START -->
-          {% for item in site.data.bistrot %}
+          {% for item in site.data.websites %}
           <a href="/images/{{ item.full }}" data-fancybox="bistrot" data-caption="{{ item.caption }}">
             <img src="/images/{{ item.thumb }}" class="product-big" alt="{{ item.alt }}" />
           </a>
-          {% endfor %}
+          
         <!-- FANCYBOX END -->
         </div>
         <div class="cell vertical">
-          <h4>Bistrot 46 | Café Restaurant</h4>
-          <p>The owners wanted to promote their bistrot&#x27;s fun, live music nights as well as their homemade food, to both locals and tourists.<br>First we had a meeting to discuss the direction of the project, then photographed the all dishes, built the website and finally the menu.</p>
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.description }}</p>
           <div class="grid-h-2">
             <div class="cell grid-cell--50-100-100-100 vertical no-padding">
-              <h6 class="heading-h6">What</h6>
-              <p class="body-text-14">Website Design &amp; Development, Food Photography, Airtable Database (menu)</p>
+              <h6 class="heading-h6">{{ item.1-title }}</h6>
+              <p class="body-text-14">{{ item.1-text }}</p>
             </div>
             <div class="cell grid-cell--50-100-100-100 vertical no-padding">
-              <h6 class="heading-h6">HOW</h6>
-              <p class="body-text-14">Static website with a menu widget embedded from Airtable (owners can update the menu themselves)</p>
+              <h6 class="heading-h6">{{ item.2-title }}</h6>
+              <p class="body-text-14">{{ item.2-text }}</p>
             </div>
           </div>
-          <a href="https://bistrot46.gr/en.html" target="_blank" class="link-block w-inline-block">
+          <a href="{{ item.link }}" target="_blank" class="link-block w-inline-block">
             <div class="button button-blue">
               <div class="button-text">Visit Website</div>
               <div class="fa-icon fa-right"></div>
@@ -97,9 +98,11 @@
           </a>
         </div>
       </div>
+            {% endfor %}
+      <!-- WORK EXAMPLE END -->
     </div>
   </div>
-<!-- WORK EXAMPLE END -->
+
 
 {% include components/cta.html %}
 {% include components/videoask-text.html %}
