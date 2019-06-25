@@ -130,6 +130,11 @@ figcaption {
   text-align: center;
 }
 
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .project-hero-copy {
   width: 50%;
   padding-top: 60px;
