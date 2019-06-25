@@ -87,6 +87,13 @@
               </script>
           </a>
         </div>
+        <!-- FANCYBOX START -->
+          {% for item in site.data.bistrot %}
+          <a href="/images/{{ item.full }}" data-fancybox="monochrome" data-caption="{{ item.caption }}">
+            <img src="/images/{{ item.thumb }}" class="portfolio-img" alt="{{ item.alt }}" />
+          </a>
+          {% endfor %}
+      <!-- FANCYBOX END -->
         <div class="cell vertical">
           <h4>Bistrot 46 | Café Restaurant</h4>
           <p>The owners wanted to promote their bistrot&#x27;s fun, live music nights as well as their homemade food, to both locals and tourists.<br>First we had a meeting to discuss the direction of the project, then photographed the all dishes, built the website and finally the menu.</p>
