@@ -11,3 +11,20 @@
   2-title: How
   2-text: Static website with a menu widget embedded from Airtable (owners can update the menu themselves)
   link: https://bistrot46.gr/en.html
+
+- title: Techomax | Tech Wholesaler
+  full: website-techomax.jpg
+  thumb: website-techomax.jpg
+  caption: 
+  alt: 
+  description: >-
+    Bilingual corporate website complete with forms and embedded widgets that are integrated with 
+    the Airtable database used to keep track of clients, orders and everything else relating to the business
+    (e.g. customer application form, products page that shows the current inventory).
+    Everything is set-up in such a way, that no server is required for hosting (static website,
+    built with Jekyll, hosted by Netlify.)
+  1-title: What
+  1-text: Website Design & Development, complex back-end database for business administration, incl. customer application form on website
+  2-title: How
+  2-text: Static built with Jekyll, Airtable database, hosted on Netlify at no cost
+  link: https://bistrot46.gr/en.html
