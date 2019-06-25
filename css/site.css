@@ -854,6 +854,7 @@ figcaption {
 
 .header-image {
   position: relative;
+  z-index: -1;
   width: 100%;
   margin-top: 83px;
   margin-left: auto;
@@ -2469,6 +2470,7 @@ figcaption {
   }
   .header-image {
     width: auto;
+    z-index: -1;
     max-height: 500px;
     margin-bottom: 0px;
   }
@@ -2861,6 +2863,7 @@ figcaption {
     grid-template-rows: auto auto auto auto;
   }
   .header-image {
+    z-index: -1;
     max-height: auto;
     margin-bottom: 0px;
   }
