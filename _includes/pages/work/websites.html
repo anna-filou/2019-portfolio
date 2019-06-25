@@ -67,11 +67,11 @@
   <div class="section">
     <div class="w-container">
       <!-- WORK EXAMPLE START -->
+      {% for item in site.data.websites %}
       <div>
         <div class="center">
         <!-- FANCYBOX START -->
-          {% for item in site.data.websites %}
-          <a href="/images/{{ item.full }}" data-fancybox="bistrot" data-caption="{{ item.caption }}">
+          <a href="/images/{{ item.full }}" data-fancybox data-caption="{{ item.caption }}">
             <img src="/images/{{ item.thumb }}" class="product-big" alt="{{ item.alt }}" />
           </a>
           
@@ -98,7 +98,7 @@
           </a>
         </div>
       </div>
-            {% endfor %}
+      {% endfor %}
       <!-- WORK EXAMPLE END -->
     </div>
   </div>
