@@ -63,12 +63,12 @@
 
                 {% elsif page.lang == 'de' %}
                 <h3 class="product-name-title">Webseiten</h3>
-                 <div class="tagline">Landing Seiten ● Blogs ● Restaurant Webseiten ● Online Shops ● etc</div>
+                 <div class="tagline">Landing Pages ● Blogs ● Restaurant Websites ● Online Shops ● usw</div>
 
                 {% elsif page.lang == 'gr' %}
                
                 <h3 class="product-name-title"> Ιστοσελίδες</h3>
-                <div class="tagline">Landing Pages ● Blogs ● Σελίδες Εστιατορίων ● Ιντερνετικά Καταστήματα ● etc</div>
+                <div class="tagline">Landing Pages ● Blogs ● Σελίδες Εστιατορίων ● Ιντερνετικά Καταστήματα ● κ.λπ.</div>
                 {% endif %}
               </div>
             </div>
@@ -114,18 +114,20 @@
               Με λένε Άννα, κάνω εικονογραφίσεις και ιστοσελίδες, μένω και δουλεύω στην Ευρώπη.
               {% endif %}
             </div>
+            <a href="/{{ page.lang }}/about">
             <div class="button">
               <div class="fa-icon fa-left"></div>
-              <div class="button-text">
-               {% if page.lang == 'en' %}
-                Read more
-                {% elsif page.lang == 'de' %}
-                Mehr lesen
-                {% elsif page.lang == 'gr' %}
-                Διαβάστε περισσότερα
-                {% endif %}
+                <div class="button-text">
+                 {% if page.lang == 'en' %}
+                  Read more
+                  {% elsif page.lang == 'de' %}
+                  Mehr lesen
+                  {% elsif page.lang == 'gr' %}
+                  Διαβάστε περισσότερα
+                  {% endif %}
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <!-- MINI BIO END -->
